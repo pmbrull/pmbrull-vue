@@ -1,7 +1,5 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
 
 .markdown {
@@ -47,4 +45,4 @@
   }
 }
 
-@import './codeStyles.scss'
+@import './codeStyles.scss';

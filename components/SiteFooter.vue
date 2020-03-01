@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center pb-2 pt-4 shadow-inner">
+  <footer class="text-center pb-2 pt-4 shadow-inner bg-gray-400">
     <div class="flex justify-center">
       <div v-for="(social,key) in socials" :key="key" :class="key === socials.length - 1 ? '' : 'mr-6'">
         <a :href="social.link" target="_blank" :aria-label="social.label" rel="noopener" class="text-gray-700 hover:text-gray-900">
@@ -12,8 +12,7 @@
         <a rel="noopener" 
            class="font-semibold hover:underline text-gray-700" 
            href="https://nuxtjs.org/">
-           Nuxtjs
-        </a> + 
+           Nuxtjs</a> + 
         <a rel="noopener" 
            class="font-semibold hover:underline text-gray-700"
            href="https://tailwindcss.com/">
