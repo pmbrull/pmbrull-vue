@@ -10,6 +10,9 @@ function getSlugs(post, _) {
 
 module.exports = {
   mode: "universal",
+  router: { // Change for domain name
+    base: '/pmbrull-vue/'
+  },
   head: {
     title: "Home",
     titleTemplate: "%s - pmbru\\\\",
