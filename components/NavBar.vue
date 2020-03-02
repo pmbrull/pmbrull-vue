@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex items-center justify-between flex-wrap bg-blue-700 p-4">
+  <nav class="flex items-center justify-between flex-wrap bg-blue-600 p-4 shadow-inner">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <!-- svg? -->
       <span class="font-semibold text-blue-200 text-xl tracking-tight">pmbruʎ</span>
