@@ -16,7 +16,6 @@
         <p class="mt-1 text-sm text-gray-700">{{ post.description }}</p>
         <p class="mt-1 text-sm text-blue-600">Published on {{ post.ctime }}</p>
       </div>
-      </nuxt-link>
     </article>
     <div
       v-if="$store.state.bloglist.length > postsPerPage && !isPaginated"
