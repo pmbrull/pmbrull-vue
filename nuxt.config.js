@@ -20,7 +20,7 @@ module.exports = {
   router: routerBase,
   head: {
     title: "Home",
-    titleTemplate: "%s - pmbru\\\\",
+    titleTemplate: "%s - pmbruʎ",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },

@@ -1,29 +1,20 @@
 <template>
   <section>
-    <h3 class="font-bold text-3xl lg:text-4xl text-gray-800 px-3">
+    <h3 class="font-bold text-3xl lg:text-4xl text-gray-800 px-3 mt-6 mb-4">
       Latest posts
     </h3>
     <article
       v-for="(post,key) in bloglist" :key="key"
-      class="py-2 px-3 rounded-lg hover:bg-gray-200 hover:shadow-inner"
       :class="key == bloglist.length -1 ? '' : 'mb-1'"
+      class="ml-10"
     >
-      <nuxt-link :to="`/blog/${post.slug}`">
-      <div v-if="post.cover_image">
-          <figure>
-            <img
-              :src="require(`~/assets/images/posts/${post.cover_image}?size=640`)"
-              :alt="post.cover_image_cp"
-              loading="lazy"
-            >
-          </figure>
-      </div>
       <div>
-        <h4 class="text-xl font-normal text-purple-600">
+        <a class="text-xl font-semibold hover:underline text-blue-600"
+           :href="`/blog/${post.slug}`">
           {{ post.title }}
-        </h4>
+        </a>
         <p class="mt-1 text-sm text-gray-700">{{ post.description }}</p>
-        <p class="mt-1 text-sm text-gray-600">Published on {{ post.ctime }}</p>
+        <p class="mt-1 text-sm text-blue-600">Published on {{ post.ctime }}</p>
       </div>
       </nuxt-link>
     </article>

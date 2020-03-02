@@ -1,8 +1,8 @@
 <template>
-  <nav class="flex items-center justify-between flex-wrap bg-blue-500 p-4">
+  <nav class="flex items-center justify-between flex-wrap bg-blue-700 p-4">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <!-- svg? -->
-      <span class="font-semibold text-xl tracking-tight">pmbru\\</span>
+      <span class="font-semibold text-blue-200 text-xl tracking-tight">pmbruʎ</span>
     </div>
     <div class="block lg:hidden"  @click="open = !open">
       <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -14,7 +14,7 @@
         <div class="text-sm lg:flex-grow">
           <a  v-for="page in pages"
             :key="page" :href="toUrl(page)"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-8">
+            class="block mt-4 font-semibold lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-8">
             {{ page }}
           </a>
         </div>
