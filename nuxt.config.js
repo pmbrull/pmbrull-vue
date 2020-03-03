@@ -3,12 +3,12 @@ const glob = require("glob");
 const path = require("path");
 let files = glob.sync("**/*.md", { cwd: "posts" });
 
-// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: { // Change for domain name
-    base: '/pmbrull-vue/'
-  }
-} : {}
+// // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+// const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+//   router: { // Change for domain name
+//     base: '/pmbrull-vue/'
+//   }
+// } : {}
 
 function getSlugs(post, _) {
   let slug = post.substr(0, post.lastIndexOf("."));
@@ -17,7 +17,7 @@ function getSlugs(post, _) {
 
 module.exports = {
   mode: "universal",
-  router: routerBase,
+  // router: routerBase,
   head: {
     title: "Home",
     titleTemplate: "%s - pmbruʎ",
@@ -50,7 +50,7 @@ module.exports = {
     [
       "@nuxtjs/sitemap",
       {
-        hostname: 'https://TODO.com',
+        hostname: 'https://pmbrull.com',
         gzip: true,
       }
     ],
