@@ -28,7 +28,7 @@ export default {
   name: "Navbar",
   data() {
     return {
-      open: true,
+      open: false,
       pages: ['Home', 'Posts', 'About', 'Resume']
     }
   },
