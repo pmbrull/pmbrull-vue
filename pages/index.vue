@@ -2,11 +2,11 @@
   <div class="container mx-auto px-4"> 
                 
       <section class="p-4">
-        <div class="flex flex-wrap -mx-10 ml-12">
-          <div class="md:w-1/4 mt-12 w-full">
+        <div class="flex flex-wrap -mx-10 ml-auto">
+          <div class="md:w-1/4 mt-12 w-full align-center">
             <ProfileCard />
           </div>
-          <div class="md:w-3/4 py-4 md:px-10 mb-4 md:mb-0">
+          <div class="md:w-3/4 w-full -mx-12 ml-auto align-center">
             <SiteHero class="mt-4"/>
             <PostList class="mt-4" :isPaginated="false" :postsPerPage="2"/>
           </div>
