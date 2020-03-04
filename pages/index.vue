@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4"> 
+  <div class="container mx-auto px-16"> 
                 
       <section class="p-4">
         <div class="flex flex-wrap -mx-10 ml-auto">

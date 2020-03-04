@@ -1,5 +1,5 @@
 <template>
-  <PostList class="mt-6" :isPaginated="true" :postsPerPage="10" />
+  <PostList class="mt-6 px-16" :isPaginated="true" :postsPerPage="10" />
 </template>
 
 <script>

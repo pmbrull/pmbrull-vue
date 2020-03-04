@@ -1,6 +1,6 @@
 <template>
   <section :key="$route.params.post">
-    <div>
+    <div class="px-16">
       <header class="mt-6">
         <h3 class="font-bold text-4xl text-gray-800">{{ attributes.title }}</h3>
         <blockquote class="border-l-4 border-gray-500 bg-gray-100 p-3 pl-4 my-4 italic">{{ attributes.description }}</blockquote>
