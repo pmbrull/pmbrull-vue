@@ -12,7 +12,7 @@ let files = glob.sync("**/*.md", { cwd: "posts" });
 
 function getSlugs(post, _) {
   let slug = post.substr(0, post.lastIndexOf("."));
-  return `/posts/${slug}`;
+  return `/post/${slug}`;
 }
 
 module.exports = {
