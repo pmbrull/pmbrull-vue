@@ -7,9 +7,9 @@
         <p class="text-sm text-gray-500">
           Published on <time>{{require('moment')(attributes.ctime).format('YYYY/MM/DD')}}</time>
         </p>
-        <figure v-if="attributes.cover_image">
+        <!-- <figure v-if="attributes.cover_image">
           <img :src="require(`~/assets/images/posts/${attributes.cover_image}`)" :alt="attributes.cover_image_cp" loading="lazy"/>
-        </figure>
+        </figure> -->
       </header>
       <article class="markdown">
         <div class="mt-2" v-html="content"></div>
