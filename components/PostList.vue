@@ -10,7 +10,7 @@
     >
       <div>
         <a class="text-xl font-semibold hover:underline text-blue-600"
-           :href="`/blog/${post.slug}`">
+           :href="`/post/${post.slug}`">
           {{ post.title }}
         </a>
         <p class="mt-1 text-sm text-gray-700">{{ post.description }}</p>
