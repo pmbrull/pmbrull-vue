@@ -24,6 +24,10 @@
         </ul>
     </div>
 
+    <img :src="require(`~/assets/${resume1}`)"
+                  alt="resume1"
+                  class="h-48 justify-center m-auto mt-8">
+
     <h1 class="font-bold text-3xl text-gray-800 px-3 mt-10 mb-4 text-center">
       Education
     </h1>
@@ -47,6 +51,10 @@
         </li>
         </ul>
     </div>
+
+    <img :src="require(`~/assets/${resume2}`)"
+                  alt="resume2"
+                  class="h-48 justify-center m-auto mt-8">
 
     <h1 class="font-bold text-3xl text-gray-800 px-3 mt-10 mb-4 text-center">
       Certifications
@@ -76,6 +84,8 @@ export default {
   },
   data() {
       return {
+          resume1: 'images/resume/resume1.svg',
+          resume2: 'images/resume/resume2.svg',
           experience: [
               {
                   time: 'Current',
