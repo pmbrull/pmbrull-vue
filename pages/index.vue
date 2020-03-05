@@ -3,10 +3,10 @@
                 
       <section class="p-4">
         <div class="flex flex-wrap -mx-10 ml-auto">
-          <div class="md:w-1/4 mt-12 w-full align-center">
+          <div class="md:w-1/3 mt-12 w-full align-center">
             <ProfileCard />
           </div>
-          <div class="md:w-3/4 w-full -mx-12 ml-auto align-center">
+          <div class="md:w-2/3 w-full -mx-12 ml-auto align-center">
             <SiteHero class="mt-4"/>
             <PostList class="mt-4" :isPaginated="false" :postsPerPage="2"/>
           </div>

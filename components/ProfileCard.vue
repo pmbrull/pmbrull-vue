@@ -30,7 +30,7 @@ export default {
           name: "Pere Miquel Brull",
           intro: "Mathematician | Big Data Developer",
           bio: "images/profile/bio.png",
-          background: "images/profile/background.jpg",
+          background: "images/profile/Optimized-background.jpg",
           pages: ['About', 'Posts', 'Resume']
       };
   },
