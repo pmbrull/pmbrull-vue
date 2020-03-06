@@ -1,8 +1,5 @@
 <template>
   <section>
-    <h3 class="font-bold text-3xl lg:text-4xl text-gray-800 px-3 mt-6 mb-4">
-      Latest posts
-    </h3>
     <article
       v-for="(post,key) in bloglist" :key="key"
       :class="key == bloglist.length -1 ? '' : 'mb-1'"
@@ -42,8 +39,7 @@ export default {
   methods: {
     filterBlogList() {
       var rawBlogList = this.$store.state.bloglist
-      console.log(rawBlogList)
-      var filteredBlogList = (this.category === 'all') ? rawBlogList : rawBlogList.filter(post => post.category === this.category)
+      var filteredBlogList = (this.category === "All") ? rawBlogList : rawBlogList.filter(post => post.category === this.category)
       return filteredBlogList
     }
   },
@@ -52,7 +48,7 @@ export default {
     postsPerPage: Number,
     category: {
         type: String,
-        default: 'all'
+        default: "All"
       }
   }
 };
