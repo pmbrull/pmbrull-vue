@@ -8,7 +8,7 @@
           </div>
           <div class="md:w-2/3 w-full -mx-12 ml-auto align-center">
             <SiteHero class="mt-4"/>
-            <PostList class="mt-4" :isPaginated="false" :postsPerPage="2"/>
+            <PostList class="mt-4" :isPaginated="false" :postsPerPage="2" :category="category"/>
           </div>
         </div>
       </section>
@@ -18,7 +18,7 @@
 <script>
 import SiteHero from "~/components/SiteHero";
 import PostList from "~/components/PostList";
-import ProfileCard from "~/components/ProfileCard"
+import ProfileCard from "~/components/ProfileCard";
 
 export default {
   layout: 'home',
@@ -26,10 +26,11 @@ export default {
     SiteHero,
     PostList,
     ProfileCard,
+  },
+  data() {
+    return {
+      category: "all"
+    }
   }
 };
 </script>
-
-
-<style>
-</style>

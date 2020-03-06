@@ -30,18 +30,30 @@ export default {
   computed: {
     bloglist() {
       if ( ! this.isPaginated ) {
-        return this.$store.state.bloglist.slice(0,this.postsPerPage);
+        return this.filterBlogList().slice(0,this.postsPerPage);
       } else {
-        return this.$store.state.bloglist;
+        return this.filterBlogList()
       }
     },
     totalPages() {
-      return this.isPaginated ? Math.ceil(this.$store.state.bloglist.length / this.postsPerPage) : 1
+      return this.isPaginated ? Math.ceil(this.filterBlogList().length / this.postsPerPage) : 1
+    }
+  },
+  methods: {
+    filterBlogList() {
+      var rawBlogList = this.$store.state.bloglist
+      console.log(rawBlogList)
+      var filteredBlogList = (this.category === 'all') ? rawBlogList : rawBlogList.filter(post => post.category === this.category)
+      return filteredBlogList
     }
   },
   props: {
     isPaginated: Boolean,
-    postsPerPage: Number
+    postsPerPage: Number,
+    category: {
+        type: String,
+        default: 'all'
+      }
   }
 };
 </script>
