@@ -17,19 +17,19 @@ export default {
     NavBar,
     SiteFooter
   },
-  mounted() {
-    let mathjaxScript = document.createElement('script')
-    mathjaxScript.setAttribute('src', 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML')
-    document.head.appendChild(mathjaxScript)
+  // mounted() {
+  //   let mathjaxScript = document.createElement('script')
+  //   mathjaxScript.setAttribute('src', 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML')
+  //   document.head.appendChild(mathjaxScript)
 
-    let mathjaxScript2 = document.createElement('script')
-    mathjaxScript2.setAttribute('src', 'https://vincenttam.github.io/javascripts/MathJaxLocal.js')
-    document.head.appendChild(mathjaxScript2)
+  //   let mathjaxScript2 = document.createElement('script')
+  //   mathjaxScript2.setAttribute('src', 'https://vincenttam.github.io/javascripts/MathJaxLocal.js')
+  //   document.head.appendChild(mathjaxScript2)
 
-    let plotlyScript = document.createElement('script')
-    plotlyScript.setAttribute('src', 'https://cdn.plot.ly/plotly-latest.min.js')
-    document.head.appendChild(plotlyScript)
-  }
+  //   let plotlyScript = document.createElement('script')
+  //   plotlyScript.setAttribute('src', 'https://cdn.plot.ly/plotly-latest.min.js')
+  //   document.head.appendChild(plotlyScript)
+  // }
 }
 
 

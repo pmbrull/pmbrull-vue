@@ -3,7 +3,7 @@
     <div class="px-16">
       <header class="mt-6">
         <h3 class="font-bold text-4xl text-gray-800">{{ attributes.title }}</h3>
-        <blockquote class="border-l-4 border-gray-500 bg-gray-100 p-3 pl-4 my-4 italic">{{ attributes.description }}</blockquote>
+        <blockquote class="border-l-4 border-gray-500 bg-gray-200 p-3 pl-4 my-4 italic">{{ attributes.description }}</blockquote>
         <p class="text-sm text-gray-500">
           Published on <time>{{require('moment')(attributes.ctime).format('YYYY/MM/DD')}}</time>
         </p>
@@ -15,7 +15,7 @@
         <div class="mt-2" v-html="content"></div>
       </article>
       <div>
-        <nuxt-link class="font-bold text-purple-500" to="/blog/">Back to blog</nuxt-link>
+        <nuxt-link class="font-bold text-blue-600" to="/posts/">Back to posts</nuxt-link>
       </div>
     </div>
   </section>
@@ -48,6 +48,10 @@ export default {
           name: "description",
           content: this.attributes.description
         }
+      ],
+      script: [
+        { src: "https://polyfill.io/v3/polyfill.min.js?features=es6" },
+        { src: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}
       ]
     };
   }
