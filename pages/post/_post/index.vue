@@ -22,11 +22,13 @@
 </template>
 
 <script>
+
 const fm = require("front-matter");
 const md = require("markdown-it")({
   html: true,
   typographer: true
-}).use(require("markdown-it-highlightjs"), { auto: true });
+}).use(require("markdown-it-highlightjs"), { auto: true })
+  .use(require('markdown-it-mathjax')());
 
 export default {
   async asyncData({ params }) {

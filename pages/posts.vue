@@ -2,7 +2,7 @@
 <div class="px-16">
 
   <h3 class="font-bold text-3xl text-center text-gray-800 px-3 mt-6 mb-4">
-    Categories
+    Latest Posts
   </h3>
 
   <div class="mb-4">
