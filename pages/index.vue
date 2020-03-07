@@ -8,7 +8,10 @@
           </div>
           <div class="md:w-2/3 w-full -mx-12 ml-auto align-center">
             <SiteHero class="mt-4"/>
-            <PostList class="mt-4" :isPaginated="false" :postsPerPage="2"/>
+            <h3 class="font-bold text-3xl lg:text-4xl text-gray-800 px-3 mt-6 mb-4">
+              Latest posts
+            </h3>
+            <PostList class="mt-4" :isPaginated="false" :postsPerPage="2" :category="category"/>
           </div>
         </div>
       </section>
@@ -18,7 +21,7 @@
 <script>
 import SiteHero from "~/components/SiteHero";
 import PostList from "~/components/PostList";
-import ProfileCard from "~/components/ProfileCard"
+import ProfileCard from "~/components/ProfileCard";
 
 export default {
   layout: 'home',
@@ -26,10 +29,11 @@ export default {
     SiteHero,
     PostList,
     ProfileCard,
+  },
+  data() {
+    return {
+      category: "All"
+    }
   }
 };
 </script>
-
-
-<style>
-</style>
