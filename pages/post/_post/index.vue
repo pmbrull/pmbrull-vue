@@ -28,7 +28,6 @@ const md = require("markdown-it")({
   html: true,
   typographer: true
 }).use(require("markdown-it-highlightjs"), { auto: true })
-  //.use(require('markdown-it-mathjax')());
 
 export default {
   async asyncData({ params }) {
@@ -74,6 +73,7 @@ export default {
       script: [
         { src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML' },
         // { src: 'https://vincenttam.github.io/javascripts/MathJaxLocal.js' }
+        { src: 'https://cdn.plot.ly/plotly-latest.min.js' }
       ]
     };
   },
