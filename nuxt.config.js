@@ -66,6 +66,18 @@ module.exports = {
       }
     ]
   ],
+  markdownit: {
+    injected: true,
+    preset: 'default',
+    linkify: true,
+    html: true,
+    breaks: false,
+    use: [
+      // 'markdown-it-mathjax',
+      'markdown-it-container',
+      'markdown-it-attrs'
+    ]
+  },
   googleAnalytics: {
     id: "TODO"
   },

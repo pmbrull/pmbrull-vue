@@ -28,7 +28,7 @@ const md = require("markdown-it")({
   html: true,
   typographer: true
 }).use(require("markdown-it-highlightjs"), { auto: true })
-  .use(require('markdown-it-mathjax')());
+  //.use(require('markdown-it-mathjax')());
 
 export default {
   async asyncData({ params }) {
@@ -38,6 +38,28 @@ export default {
       attributes: res.attributes,
       content: md.render(res.body)
     };
+  },
+  methods: {
+    renderMathJax () {
+      if(window.MathJax) {
+        window.MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\(","\)"] ],
+            displayMath: [ ['$$','$$'], ["\[","\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+          },
+          // Center justify equations in code and markdown cells. Elsewhere
+          // we use CSS to left justify single line equations in code cells.
+          displayAlign: 'center',
+          "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+          }
+        });
+        window.MathJax.Hub.Queue(["Typeset", window.MathJax.Hub,this.$refs.mathJaxEl]);
+      }
+    }
   },
   head() {
     return {
@@ -50,10 +72,13 @@ export default {
         }
       ],
       script: [
-        { src: "https://polyfill.io/v3/polyfill.min.js?features=es6" },
-        { src: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}
+        { src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML' },
+        // { src: 'https://vincenttam.github.io/javascripts/MathJaxLocal.js' }
       ]
     };
+  },
+  mounted () {
+    this.renderMathJax()
   }
 };
 </script>
