@@ -5,8 +5,9 @@
     Latest Posts
   </h3>
 
+<div>
   <div class="mb-4">
-    <ul class="flex">
+    <ul class="flex align-center justify-center">
     <button class="py-1 px-3 m-4 rounded"
             v-for="cat in categories" :key="cat"
             :class="cat === postCategory ? 'text-white bg-blue-600 hover:bg-gray-300 hover:bg-blue-700'
@@ -18,6 +19,7 @@
   </div>
 
   <hr/>
+  </div>
   
   <PostList class="m-auto justify-center align-center mt-4" :isPaginated="false" :postsPerPage="10" :category="postCategory"/>
 </div>

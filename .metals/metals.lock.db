@@ -1,0 +1,6 @@
+#FileLock
+#Wed Mar 11 10:52:43 CET 2020
+hostName=localhost
+id=170c902b5f6f14c2b464ba614557f144a9399e9ca09
+method=file
+server=localhost\:50986
