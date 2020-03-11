@@ -3,10 +3,10 @@
     <article
       v-for="(post,key) in bloglist" :key="key"
       :class="key == bloglist.length -1 ? '' : 'mb-1'"
-      class="ml-10"
+      class="ml-10 mr-6 mt-4"
     >
       <div>
-        <a class="text-xl font-semibold hover:underline text-blue-600"
+        <a class="text-2xl font-semibold hover:underline text-blue-600"
            :href="`/post/${post.slug}`">
           {{ post.title }}
         </a>

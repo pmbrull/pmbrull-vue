@@ -19,8 +19,7 @@ module.exports = {
   mode: "universal",
   // router: routerBase,
   head: {
-    title: "Home",
-    titleTemplate: "%s - pmbruʎ",
+    title: "pmbruʎ",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -28,7 +27,7 @@ module.exports = {
         hid: "keywords",
         name: "keywords",
         content:
-          "vuejs, nuxt, scala, python, machine-learning, big-data, docker, tailwindcss, tailwind"
+          "vuejs, nuxt, scala, python, machine-learning, big-data, docker, tailwindcss"
       },
       { name: "robots", hid: "robots" , content: "index, follow" },
     ],

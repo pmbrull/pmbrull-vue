@@ -3,8 +3,8 @@
     <div class="px-16">
       <header class="mt-6">
         <h3 class="font-bold text-4xl text-gray-800">{{ attributes.title }}</h3>
-        <blockquote class="border-l-4 border-gray-500 bg-gray-200 p-3 pl-4 my-4 italic">{{ attributes.description }}</blockquote>
-        <p class="text-sm text-gray-500">
+        <blockquote class="p-3 pl-4 my-4 italic">{{ attributes.description }}</blockquote>
+        <p class="text-sm text-blue-600">
           Published on <time>{{require('moment')(attributes.ctime).format('YYYY/MM/DD')}}</time>
         </p>
         <!-- <figure v-if="attributes.cover_image">
@@ -14,7 +14,7 @@
       <article class="markdown">
         <div class="mt-2" v-html="content"></div>
       </article>
-      <div>
+      <div class="mt-4">
         <nuxt-link class="font-bold text-blue-600" to="/posts/">Back to posts</nuxt-link>
       </div>
     </div>
@@ -43,8 +43,8 @@ export default {
       if(window.MathJax) {
         window.MathJax.Hub.Config({
           tex2jax: {
-            inlineMath: [ ['$','$'], ["\(","\)"] ],
-            displayMath: [ ['$$','$$'], ["\[","\]"] ],
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
             processEscapes: true,
             processEnvironments: true
           },

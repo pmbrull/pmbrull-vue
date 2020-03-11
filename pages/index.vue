@@ -11,7 +11,7 @@
             <h3 class="font-bold text-3xl lg:text-4xl text-gray-800 px-3 mt-6 mb-4">
               Latest posts
             </h3>
-            <PostList class="mt-4" :isPaginated="false" :postsPerPage="2" :category="category"/>
+            <PostList class="mt-4" :isPaginated="false" :postsPerPage="4" :category="category"/>
           </div>
         </div>
       </section>
