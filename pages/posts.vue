@@ -21,7 +21,7 @@
   <hr/>
   </div>
   
-  <PostList class="m-auto justify-center align-center mt-4" :isPaginated="false" :postsPerPage="10" :category="postCategory"/>
+  <PostList class="m-auto justify-center align-center mt-4" :isPaginated="false" :postsPerPage="100" :category="postCategory"/>
 </div>
 </template>
 
@@ -35,7 +35,7 @@ export default {
   data() {
     return {
       postCategory: "All",
-      categories: ['All', 'Python', 'Scala', 'Big Data', 'Spark', 'Misc']
+      categories: ['All', 'Big Data', 'Machine Learning', 'Scala', 'Spark']
     }
   },
   methods: {
