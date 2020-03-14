@@ -7,7 +7,7 @@ description: |
     in just two dimensions... Let's study how we
     can keep on playing around geometrical ideas
     to obtain even better results.
-category: Machine Learning
+category: ML
 ctime: 2018-03-23
 ---
 

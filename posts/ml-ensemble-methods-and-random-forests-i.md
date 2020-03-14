@@ -5,7 +5,7 @@ description: |
     Bootstrap? Random Forests? Machine Learning
     algorithms are a playground of fancy words. Let's break
     down the theory behind the prime example of ensemble methods.
-category: Machine Learning
+category: ML
 ctime: 2018-05-13
 ---
 

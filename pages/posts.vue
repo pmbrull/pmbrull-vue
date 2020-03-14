@@ -35,7 +35,7 @@ export default {
   data() {
     return {
       postCategory: "All",
-      categories: ['All', 'Big Data', 'Machine Learning', 'Scala', 'Spark']
+      categories: ['All', 'Big Data', 'Cloud', 'ML', 'Python', 'Scala', 'Spark']
     }
   },
   methods: {

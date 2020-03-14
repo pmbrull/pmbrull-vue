@@ -8,7 +8,7 @@ description: |
     recognition. In this post we are going to have a first
     look at the underlying theory - geometry based - and
     how to implement them in Python.
-category: Machine Learning
+category: ML
 ctime: 2018-03-19
 ---
 

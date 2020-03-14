@@ -7,7 +7,7 @@ description: |
     internet is a dataset. How can we group films based
     solely on their description? How we can make sense
     of the different terms? Let's get hands-on!
-category: Machine Learning
+category: ML
 ctime: 2018-09-09
 ---
 
