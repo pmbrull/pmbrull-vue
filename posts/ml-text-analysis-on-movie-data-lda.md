@@ -79,7 +79,7 @@ fig = go.Figure(data=data, layout=layout)
 iplot(fig, show_link=False, config=_PLOTLY_CONFIG)
 ```
 
-<img src="../../images/posts/ml/lda/films-by-genre.png" class="w-84 my-4 justify-center m-auto">
+<img src="../../images/posts/ml/lda/films-by-genre.png" class="h-96 my-4 justify-center m-auto">
 
 From the 20 genres, only a few have a board representation in the data. When performing LDA, a reasonable number of topics to search could be 6 or 7, having in mind that genres with close to no representation are likely from films with more generic tags like *Drama* or *Comedy*.
 
@@ -416,7 +416,7 @@ iplot([go.Bar(x=topics, y=df.groupby(['topic_num'])['Title'].count().values)],
       show_link=False, config=_PLOTLY_CONFIG)
 ```
 
-<img src="../../images/posts/ml/lda/topic-distribution.png" class="h964 my-4 justify-center m-auto">
+<img src="../../images/posts/ml/lda/topic-distrbution-by-movie.png" class="h-96 my-4 justify-center m-auto">
 
 
 Topic distribution is fairly uniform, which is a good sign, meaning we are not choosing a number of topics too large. However, in our case was somehow easy as we already knew the real topic distribution.
