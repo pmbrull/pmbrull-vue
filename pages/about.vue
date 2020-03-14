@@ -47,6 +47,26 @@
       </div>
 
       <div>
+        <p class="mt-1 text-sm text-gray-700 mt-6 m-auto display-inline text-center">
+         Regarding the blog itself... I started playing around with blogs around 2018.
+         I started with a simple Jekyll theme hosted in Github pages, but it lacked the freedom
+         I wanted to achieve. By then I was really in love with Scala - I still am - so I
+         switched to Play Framework just pour le fun. I was happy with the result but I did not
+         integrate any markdown in it as I wanted to mess with ScalaJS. In the end, writing
+         was a bit cumbersome, so I thought about another change. I played a bit with a 47 Degree's
+         project called microsites, which was really fast to spin up. But again, it did not
+         offer much flexibility.
+
+         Now, I just wanted to do something that i'd like the look and feel but that would
+         be easy to push me to write new content. Therefore, I went directly to Javascript with
+         VueJS and a Markdown plugin.
+
+         I am no frontend developer, and it was not easy to get to this point, but it was indeed
+         really fun. I hope you enjoy this as much as I did during all these years!
+        </p>
+      </div>
+
+      <div>
         <h1 class="font-bold text-lg text-gray-800 mt-10">Credits</h1>
         <div class="mt-2 text-sm text-gray-600">
           <ul class="list-disc">
