@@ -62,7 +62,7 @@
          VueJS and a Markdown plugin.
 
          I am no frontend developer, and it was not easy to get to this point, but it was indeed
-         really fun. I hope you enjoy this as much as I did during all these years!
+         really fun. I hope you enjoy this as much as I did during all these years! 😍
         </p>
       </div>
 

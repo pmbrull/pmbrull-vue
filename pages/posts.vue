@@ -2,7 +2,7 @@
 <div class="px-16">
 
   <h3 class="font-bold text-3xl text-center text-gray-800 px-3 mt-6 mb-4">
-    Latest Posts
+    Read About...
   </h3>
 
 <div>
