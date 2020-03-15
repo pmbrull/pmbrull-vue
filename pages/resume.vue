@@ -101,7 +101,7 @@ export default {
               },
               {
                   time: 'Current',
-                  position: 'Data Science Assistant teacher in EAE Business School',
+                  position: 'Data Science Assistant teacher in EAE Business School (Part Time)',
                   tasks: []
               },
               {

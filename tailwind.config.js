@@ -2,7 +2,17 @@ module.exports = {
 	prefix: '',
 	important: false,
 	separator: ':',
-	theme: {},
+	theme: {
+		extend: {
+			spacing: {
+	        	'72': '18rem',
+	        	'84': '21rem',
+				'96': '24rem',
+				'102': '28rem',
+				'114': '34rem'
+			}
+		}
+	},
 	variants: {},
 	plugins: [],
 }

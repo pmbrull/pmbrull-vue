@@ -17,7 +17,8 @@
            class="font-semibold hover:underline text-gray-700"
            href="https://tailwindcss.com/">
            Tailwind CSS
-        </a>
+        </a> +
+        🚀
       </p>
     </div>
   </footer>
@@ -29,7 +30,7 @@ export default {
     return {
       socials: [
         { link: "https://github.com/pmbrull", icon: "github" , label: "Check my Github profile" },
-        { link: "www.linkedin.com/in/pere-miquel-brull-borràs", icon: "linkedin" , label: "Find me on Linkedin" },
+        { link: "https://www.linkedin.com/in/pere-miquel-brull-borràs", icon: "linkedin" , label: "Find me on Linkedin" },
       ]
     };
   }
