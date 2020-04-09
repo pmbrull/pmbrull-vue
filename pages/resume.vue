@@ -154,8 +154,12 @@ export default {
                   link: 'https://www.coursera.org/account/accomplishments/verify/7Y92YK2Q9EWY'
               },
               {
-                  title: 'AWS DevOps Engineer Nanodegree, Udacity',
+                  title: 'Cloud DevOps Engineer Nanodegree (AWS), Udacity',
                   link: 'https://confirm.udacity.com/MRMGCJL9'
+              },
+              {
+                  title: 'Machine Learning Engineer (AWS), Udacity',
+                  link: 'https://graduation.udacity.com/confirm/RSQ3NMT'
               },
               {
                   title: 'SP840-Az: Managed Delta Lake, Azure Databricks',
