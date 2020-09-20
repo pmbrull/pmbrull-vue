@@ -14,13 +14,17 @@ Playing around with Azure DevOps all day at work makes one wonder what could you
 
 With DevOps we try to bring to our development process the agile thinking, delivering faster and testing better our work. You can find the link to Microsoft's DevOps page [here](https://docs.microsoft.com/en-us/learn/certifications/devops-engineer). As pointed out there, one first needs to be either a Developer or Admin associate prior to jumping to this exam. Let's take a look at the [measured skills](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VP84).
 
+> What I find really valuable from Microsoft is that in the main page of the cert description, we have the learning paths for the different modules but the last one. Once I get there and I look for docs I'll add the links here too.
+
 ## Develop an Instrumentation Strategy (5-10%)
 
 This makes sense, right? We're talking about improving the lifecycle of an application, so first of all we need to make sure we can obtain all the necessary information of what is going on in our environments. This part is broken down in the following points:
 
 1. **Design and implement logging**: Where one needs to define a log framework, log aggregation and storage (Azure Storage, Azure Monitor), manage access control to logs and finally integrate crash analytics.
-1. **Design and implement telemetry**: Extracting information about app and infrastructure metrics, setting alerts & user analytics.
-1. **Integrate logging and monitoring solutions**: Using monitoring tools for apps and containers (Azure Monitor), manage access to such tools and extract feedback from the monitoring data.
+2. **Design and implement telemetry**: Extracting information about app and infrastructure metrics, setting alerts & user analytics.
+3. **Integrate logging and monitoring solutions**: Using monitoring tools for apps and containers (Azure Monitor), manage access to such tools and extract feedback from the monitoring data.
+
+Link to [Learning Path](https://docs.microsoft.com/en-us/learn/paths/az-400-develop-instrumentation-strategy/).
 
 ## Develop a Site Reliability Engineering (SRE) strategy (5-10%)
 
@@ -29,6 +33,8 @@ Based on the information retrieval tools, set metrics and alerts to control the 
 1. **Develop an actionable alerting strategy**: Identify metrics and setting alerts based on metrics, logs and health checks. Develop communication mechanisms to inform users about degraded systems.
 1. **Design a failure prediction strategy**: Analyze failure conditions and metrics and apply a failure prediction strategy.
 1. **Design and implement a health check**: Integrate and implement health checks, analyze dependencies and design approach for partial health situations.
+
+Link to [Learning Path](https://docs.microsoft.com/learn/paths/az-400-develop-sre-strategy/)
 
 ## Develop a security and compliance plan (10-15%)
 
@@ -39,6 +45,8 @@ Make use of Azure services such as Active Directory and Key Vault to manage acce
 1. **Develop security and compliance**: Dependency scanning for security and compliance (licensing), asses and reports risks and design a source code compliance solution.
 1. **Design governance enforcement mechanisms**: Implement Azure policies to enforce organizational requirements and responses to security incidents.
 
+Link to [Learning Path](https://docs.microsoft.com/learn/paths/az-400-develop-security-compliance-plan/)
+
 ## Manage source control (10-15%)
 
 To ensure a healthy code management and team collaboration.
@@ -48,6 +56,8 @@ To ensure a healthy code management and team collaboration.
 1. **Configure repositories**: configure permissions, organize the repo with tags, manage oversized repos, content recovery and data purging.
 1. **Integrate source control with tools**: With DevOps pipelines, Github & AD, GitOps, ChatOps and changelogs.
 
+Link to [Learning Path](https://docs.microsoft.com/learn/paths/az-400-manage-source-control/)
+
 ## Facilitate communication and collaboration (10-15%)
 
 Ensuring rapid insights and feedback on the project lifecyle health.
@@ -55,6 +65,8 @@ Ensuring rapid insights and feedback on the project lifecyle health.
 1. **Communicate deployment and release information with business stakeholders**: Custom dashboards on Azure DevOps, cost management strategy, work item tracing and communicate user analytics.
 1. **Generate DevOps process documentation**: Onboarding process for new employees, asses and document dependencies and artifacts.
 1. **Automate communication with team members**: Integrate monitoring tools, build and release pipelines with communication platforms & notify key metrics with alerts.
+
+Link to [Learning Path](https://docs.microsoft.com/learn/paths/az-400-facilitate-communication-collaboration/)
 
 ## Define and implement continuous integration (20-25%)
 
@@ -66,6 +78,8 @@ This block and the next are the most fundamental ones, as once we have the envir
 4. **Implement a build strategy**: Design and implement build agent infrastructure and costs, tools and maintenance, build pipelines and triggers, orchestration and integrate the configuration in the build process.
 5. **Maintain build strategy**: Monitor pipeline health, optimize build cost, time and performance. Manage agents and investigate test failures.
 6. **Design a process for standardizing builds across organization**: Manage self-hosted agents and create reusable build subsystems (YAML templates, task groups, variable groups).
+
+Link to [Learning Path](https://docs.microsoft.com/learn/paths/az-400-define-implement-continuous-integration/)
 
 ## Define and implement a continuous delivery and release management strategy (10-15%)
 
