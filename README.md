@@ -2,6 +2,8 @@
 
 Playing around with nuxt to re-build my blog.
 
+The website is hosted at Netlify and can be found here: https://pmbrull.dev
+
 ## Build setup
 
 Clone this repo and run the following commands
