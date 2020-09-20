@@ -90,3 +90,5 @@ Link to [Learning Path](https://docs.microsoft.com/learn/paths/az-400-define-imp
 ## Summary
 
 To sum up, in this post we just went through the Microsoft sources to list all the skills required to take the exam to start ordering the ideas in our heads.
+
+In the end, through all the series of the Azure DevOps Certification I'll be just writing down my notes during the learning journey, as it helps me to synthetize and order the ideas so that it is easier to review all the info later on :) Let's use this summary as a general disclaimer on the content of following posts and a big thanks for MS to create all the required content!
