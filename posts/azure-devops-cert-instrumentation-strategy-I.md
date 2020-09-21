@@ -11,7 +11,7 @@ category: Cloud
 ctime: 2020-09-20
 ---
 
-Long story short, we need to manage logging, telemetry and monitoring. The information will mainly come from the [Learning Path](https://docs.microsoft.com/en-us/learn/paths/az-400-develop-instrumentation-strategy/) and other interesting sources such as [this](https://azure.microsoft.com/es-es/blog/cloud-service-fundamentals-telemetry-basics-and-troubleshooting/), that I'll keep adding when they pop up.
+Long story short, we need to manage logging, telemetry and monitoring. The information will mainly come from the [Learning Path](https://docs.microsoft.com/en-us/learn/modules/capture-application-logs-app-service/) and other interesting sources such as [this](https://azure.microsoft.com/es-es/blog/cloud-service-fundamentals-telemetry-basics-and-troubleshooting/), that I'll keep adding when they pop up.
 
 Note that in the Learning Path, MS allows us to use some sandboxes to deploy services and play around with the topics explained without getting our subscriptions charged, which is a great way to get some hands-on experience!
 
