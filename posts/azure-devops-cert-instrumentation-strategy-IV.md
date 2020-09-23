@@ -119,5 +119,28 @@ This rises another challenge, and it is data consistency. As it would be really 
 
 ## Identify performance bottlenecks in your application
 
+When talking about performance, there is really no end to how much time and other resources you can invest. Therefore, when designing an app, it is important to write down not only functional requirements, but also *nonfunctional* requirements that can be directly correlated to performance, e.g., How fast a transaction must return a result.
 
+By adding some specific goals, it is easier to define our approach to performance optimization without incurring into overexpenses nor non-necessary results.
 
+### Performance monitoring options in Azure
+
+Monitoring is the act of collecting and analyzing data to determine the performance, health, and availability of your business application and associated resources. We can define those at both infrastructure and application layer.
+
+#### Azure Monitor
+
+Which centralizes infrastructure monitoring. Azure Monitor maximizes the availability and performance of your applications by delivering a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments.
+
+Based on input data from the application, OS, Azure resources and even from the subscription and tenant, Azure Monitor feeds Logs and Metrics datastores that can then be exploited.
+
+Azure Monitor is the place to start for all your resource metric insights gathered in near real time, and many resources start feeding data automatically after being deployed.
+
+#### Log Analytics
+
+This service allows us to query logs from all of our different sources, which gives a 360 view of our applications and infrastructure, and is a great approach to troubleshoot performance issues.
+
+### Application performance management
+
+An APM solution helps to track down low-level application performance and behavior by extracting telemetry from the different events happening in our application (page load times, exceptions, and even custom metrics). This is given by Azure with Application Insights, which presents a package that can be installed in our app and set up in the portal.
+
+We can then setup scheduled tests and even custom metrics to be sent. Application Insights stores its data in a common repository, and metrics are shared with Azure Monitor and can even be used to set alerts, dashboards and be queried with Log Analytics. It is used to monitor availability, performance, and the use of web applications.
