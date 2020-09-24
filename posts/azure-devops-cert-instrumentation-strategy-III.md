@@ -8,7 +8,7 @@ description: |
   Studio App Center brings together all of these commodities, even with
   UI testing and monitoring on top.
 category: Cloud
-ctime: 2020-09-22
+ctime: 2020-09-18
 ---
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/paths/az-400-develop-instrumentation-strategy/).

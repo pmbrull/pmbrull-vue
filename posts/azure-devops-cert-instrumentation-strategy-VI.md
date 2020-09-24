@@ -7,7 +7,7 @@ description: |
   monitoring. Now, let's take a look at how to monitor infrastructure
   with Azure Monitor.
 category: Cloud
-ctime: 2020-09-23
+ctime: 2020-09-21
 ---
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/analyze-infrastructure-with-azure-monitor-logs/).

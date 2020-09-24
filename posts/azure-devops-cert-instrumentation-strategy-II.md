@@ -7,7 +7,7 @@ description: |
   what we have, who it belongs to, and where it is used. Now it is time
   to control and organize Azure Resources. 
 category: Cloud
-ctime: 2020-09-21
+ctime: 2020-09-17
 ---
 
 Having a tidy cloud environment means that it is easier to control which services belong to what project / team, manage billing and also monitoring and accesses. It won't just allow us to have a better view on what we have, but it will help us reduce mistakes and ease the administration work.

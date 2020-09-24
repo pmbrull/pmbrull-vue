@@ -8,7 +8,7 @@ description: |
   have enough information about both the software and
   infrastructure behavior.
 category: Cloud
-ctime: 2020-09-20
+ctime: 2020-09-16
 ---
 
 Long story short, we need to manage logging, telemetry and monitoring. The information will mainly come from the [Learning Path](https://docs.microsoft.com/en-us/learn/modules/capture-application-logs-app-service/) and other interesting sources such as [this](https://azure.microsoft.com/es-es/blog/cloud-service-fundamentals-telemetry-basics-and-troubleshooting/), that I'll keep adding when they pop up.

@@ -7,7 +7,7 @@ description: |
   In this post, we are going to review one of its pillars: 
   performance efficiency.  
 category: Cloud
-ctime: 2020-09-23
+ctime: 2020-09-19
 ---
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/azure-well-architected-performance-efficiency/). It is important to keep in mind that **performance efficiency** is just one aspect of the [Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/), consisting of Cost Optimization, Operational Excellence, Performance Efficiency, Reliability and Security.

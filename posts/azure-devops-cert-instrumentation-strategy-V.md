@@ -6,7 +6,7 @@ description: |
   Operational Excellence in order to determine if we are following
   the best practices when designing cloud solutions.
 category: Cloud
-ctime: 2020-09-23
+ctime: 2020-09-20
 ---
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/azure-well-architected-operational-excellence). Operational Excellence is another pillar of the [Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/), and it tries to tackle questions such as: Are we using modern practices such as DevOps? Are we able to respond to unexpected events? Do we rely on manual interventions in our usual processes?
