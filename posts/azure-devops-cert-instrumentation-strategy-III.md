@@ -1,5 +1,5 @@
 ---
-title: Azure DevOps Certification - Develop an Instrumentation Strategy III
+title: AZ-400 - Develop an Instrumentation Strategy III
 published: true
 description: |
   This certification is about DevOps, so a major focus is

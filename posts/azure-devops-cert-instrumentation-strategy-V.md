@@ -1,5 +1,5 @@
 ---
-title: Azure DevOps Certification - Develop an Instrumentation Strategy V
+title: AZ-400 - Develop an Instrumentation Strategy V
 published: true
 description: |
   Following the Well-Architected Framework, now it is time to discuss

@@ -1,5 +1,5 @@
 ---
-title: Azure DevOps Certification - Develop an Instrumentation Strategy II
+title: AZ-400 - Develop an Instrumentation Strategy II
 published: true
 description: |
   With Azure we have a lot of freedom when creating and managing services.

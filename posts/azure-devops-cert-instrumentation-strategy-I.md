@@ -1,5 +1,5 @@
 ---
-title: Azure DevOps Certification - Develop an Instrumentation Strategy I
+title: AZ-400 - Develop an Instrumentation Strategy I
 published: true
 description: |
   The core of this module is to get visibility on the
