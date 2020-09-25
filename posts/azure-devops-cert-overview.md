@@ -7,7 +7,7 @@ description: |
   to underline a summary of what the exam covers and during the
   following days I'll keep posting my notes of the material.
 category: Cloud
-ctime: 2020-09-19
+ctime: 2020-09-15
 ---
 
 Playing around with Azure DevOps all day at work makes one wonder what could you be getting wrong (or not that good), so I am actually pretty excited about diving deep for this certification.
