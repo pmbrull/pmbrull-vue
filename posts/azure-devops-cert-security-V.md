@@ -12,7 +12,7 @@ ctime: 2020-10-05
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/control-authentication-with-apim/).
 
-# Control authentication for your APIs with Azure API Management
+## Control authentication for your APIs with Azure API Management
 
 Learning objectives:
 * Create an Azure API gateway

@@ -12,7 +12,7 @@ ctime: 2020-09-21
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/analyze-infrastructure-with-azure-monitor-logs/).
 
-# Analyze your Azure infrastructure by using Azure Monitor logs
+## Analyze your Azure infrastructure by using Azure Monitor logs
 
 Learning objectives:
 * Identify the features and capabilities of Azure Monitor logs.

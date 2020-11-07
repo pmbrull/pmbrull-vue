@@ -12,7 +12,7 @@ ctime: 2020-10-13
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/review-planning-managing-costs/).
 
-# Review planning and managing Azure costs
+## Review planning and managing Azure costs
 
 Learning Objectives:
 * Explore purchasing Azure products and services.

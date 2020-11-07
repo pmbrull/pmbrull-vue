@@ -12,7 +12,7 @@ ctime: 2020-10-02
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/create-users-and-groups-in-azure-active-directory/).
 
-# Create Azure users and groups in Azure Active Directory
+## Create Azure users and groups in Azure Active Directory
 
 Learning Objectives:
 * Add users to Azure Active Directory.

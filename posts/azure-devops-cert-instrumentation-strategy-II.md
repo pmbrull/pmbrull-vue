@@ -14,7 +14,7 @@ Having a tidy cloud environment means that it is easier to control which service
 
 The content for this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/control-and-organize-with-azure-resource-manager/). If some of you have already studied for Azure Fundamentals exam, then you might have already read through this.
 
-# Control and organize Azure resources with Azure Resource Manager
+## Control and organize Azure resources with Azure Resource Manager
 
 Learning objectives:
 * Use resource groups to organize Azure resources

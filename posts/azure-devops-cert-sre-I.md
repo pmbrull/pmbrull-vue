@@ -13,7 +13,7 @@ ctime: 2020-09-27
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/intro-to-site-reliability-engineering/).
 
-# Introduction to Site Reliability Engineering (SRE)
+## Introduction to Site Reliability Engineering (SRE)
 
 Learning Objectives:
 * Gain a basic understanding of Site Reliability Engineering (SRE)

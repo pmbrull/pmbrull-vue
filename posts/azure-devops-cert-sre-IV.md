@@ -13,7 +13,7 @@ ctime: 2020-09-29
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/troubleshoot-inbound-connectivity-azure-load-balancer/).
 
-# Troubleshoot inbound network connectivity for Azure Load Balancer
+## Troubleshoot inbound network connectivity for Azure Load Balancer
 
 Learning objectives:
 * Identify common load balancer inbound connectivity issues.

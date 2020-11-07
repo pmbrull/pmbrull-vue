@@ -14,7 +14,7 @@ ctime: 2020-10-06
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/monitor-report-aad-security-events/).
 
-# Monitor and report on security events in Azure AD
+## Monitor and report on security events in Azure AD
 
 Learning objectives:
 * Store Azure audit activity and sign-in activity logs in Azure Monitor.

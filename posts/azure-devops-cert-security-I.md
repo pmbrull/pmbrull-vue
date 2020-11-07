@@ -12,7 +12,7 @@ ctime: 2020-10-01
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-ad/).
 
-# Secure your identities by using Azure Active Directory
+## Secure your identities by using Azure Active Directory
 
 Learning objectives:
 * Describe the core terminology of Azure AD.

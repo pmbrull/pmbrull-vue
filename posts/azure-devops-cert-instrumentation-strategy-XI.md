@@ -12,7 +12,7 @@ ctime: 2020-09-26
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/design-monitoring-strategy-on-azure/).
 
-# Design a holistic monitoring strategy on Azure
+## Design a holistic monitoring strategy on Azure
 
 
 Learning objectives:

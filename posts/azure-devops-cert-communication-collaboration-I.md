@@ -15,7 +15,7 @@ ctime: 2020-10-09
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/analyze-devops-continuous-planning-intergration/1-introduction).
 
-# Analyze DevOps Continuous Planning and Continuous Integration 
+## Analyze DevOps Continuous Planning and Continuous Integration 
 
 Learning objectives:
 * Describe Objectives and Key Results.

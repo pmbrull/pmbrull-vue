@@ -11,7 +11,7 @@ ctime: 2020-09-20
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/azure-well-architected-operational-excellence). Operational Excellence is another pillar of the [Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/), and it tries to tackle questions such as: Are we using modern practices such as DevOps? Are we able to respond to unexpected events? Do we rely on manual interventions in our usual processes?
 
-# Microsoft Azure Well-Architected Framework - Operational excellence 
+## Microsoft Azure Well-Architected Framework - Operational excellence 
 
 Learning Content:
 * Apply modern practices to design, build, and orchestrate resources on Azure

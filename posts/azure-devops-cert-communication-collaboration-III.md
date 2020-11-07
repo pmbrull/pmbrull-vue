@@ -11,7 +11,7 @@ ctime: 2020-10-11
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/characterize-devops-continous-collaboration-improvement/).
 
-# Characterize DevOps Continuous Collaboration and Continuous Improvement
+## Characterize DevOps Continuous Collaboration and Continuous Improvement
 
 Learning Objectives:
 * List the five dysfunctions of a team.

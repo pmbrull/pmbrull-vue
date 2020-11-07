@@ -15,7 +15,7 @@ The content of this post comes from [Microsoft Learn](https://docs.microsoft.com
 
 As we've already seen some of these contents, we will directly jump here into what might be interesting to refresh or get more information about: Load Balancing & Serverless computing.
 
-# Scale your cloud resources with elasticity
+## Scale your cloud resources with elasticity
 
 Learning objectives:
 * Describe the importance of load balancing in cloud applications and enumerate various methods to achieve it

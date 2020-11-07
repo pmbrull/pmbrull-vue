@@ -13,7 +13,7 @@ ctime: 2020-10-10
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/).
 
-# Introduce the foundation pillars of DevOps: Culture and Lean Product
+## Introduce the foundation pillars of DevOps: Culture and Lean Product
 
 Learning Objectives:
 * List the pillars, capabilities, and benefits of DevOps.

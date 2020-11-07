@@ -17,7 +17,7 @@ ctime: 2020-10-12
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/).
 
-# Explain DevOps Continuous Delivery and Continuous Quality
+## Explain DevOps Continuous Delivery and Continuous Quality
 
 Learning Objectives
 * Explain Continuous Delivery

@@ -12,7 +12,7 @@ ctime: 2020-09-22
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/capture-page-load-times-application-insights/).
 
-# Capture and view page load times in your Azure web app with Application Insights
+## Capture and view page load times in your Azure web app with Application Insights
 
 Application Insights, a feature of Azure Monitor, is an extensible Application Performance Management (APM) service for developers and DevOps professionals. It monitors live web applications and you can enable it for many Azure App Service web apps without modifying any of the app's code.
 

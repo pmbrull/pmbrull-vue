@@ -13,7 +13,7 @@ ctime: 2020-09-30
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/monitor-azure-vm-using-diagnostic-data/).
 
-# Monitor the health of your Azure virtual machine by using Azure Metrics Explorer and metric alerts
+## Monitor the health of your Azure virtual machine by using Azure Metrics Explorer and metric alerts
 
 Learning objectives:
 * Identify metrics and diagnostic data that you can collect for virtual machines

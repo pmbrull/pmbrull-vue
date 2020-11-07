@@ -14,7 +14,7 @@ ctime: 2020-10-08
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/intro-to-governance/).
 
-# Apply and monitor infrastructure standards with Azure Policy
+## Apply and monitor infrastructure standards with Azure Policy
 
 Learning Objectives:
 * Apply policies to control and audit resource creation

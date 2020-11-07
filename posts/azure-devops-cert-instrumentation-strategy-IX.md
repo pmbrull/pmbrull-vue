@@ -13,7 +13,7 @@ ctime: 2020-09-24
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/cmu-monitor-cloud-resources/).
 
-# Monitor cloud resources
+## Monitor cloud resources
 
 We've already been checking what Azure offers us to monitor our platform, infrastructure and applications. This learning doc might be a bit more generic than that, but it is always interesting to have a wider look at key concepts.
 

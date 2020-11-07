@@ -92,3 +92,96 @@ Code coverage tools inform us about the functions and classes being properly eva
 ```
 
 As with test results, code coverage can also be added into a DevOps dashboard.
+
+## Manage build dependencies with Azure Artifacts
+
+A package contains reusable code that other developers can use in their own projects. The type of packaging might differ with different languages / projects.
+
+Packages also often contain one or more files that provide metadata, or information, about the package. This metadata might describe what the package does, specify its license terms, the author's contact information, and the package's version.
+
+They help us to prevent drift and group related functionality into one reusable component.
+
+You can host packages on your own network, or you can use a hosting service. A hosting service is often called a package repository or package registry. A package feed refers to your package repository server. It can be in the internet or behind your firewall.
+
+The versioning scheme depends on the packaging system you use. Usually packages follow Semantic Versioning `Major.Minor.Patch[-Suffix]`.
+
+Azure Artifacts is a repository in your Azure DevOps organization where you can manage the dependencies for your codebase. Azure Artifacts can store your artifacts and your binaries. It provides a container, called a feed, for groups of dependencies. Developers who have access to the feed can easily consume or publish packages. If you are already using Azure DevOps, authentication to the feed will be easy to manage.
+
+When a package sees an update and is published to Azure Artifacts, the old versions can still be there - they are rarely unlisted - so that applications that depend on them can still run.
+
+### Dotnet and NuGet
+
+An example of DevOps pipeline with a dotnet app and a package published in a newly created nuget feed called `Tailspin.SpaceGame.Web.Models` could be:
+
+```yaml
+- task: DotNetCoreCLI@2
+  displayName: 'Pack the project - $(buildConfiguration)'
+  inputs:
+    command: 'pack'
+    projects: '**/*.csproj'
+    arguments: '--no-build --configuration $(buildConfiguration)'
+    versioningScheme: byPrereleaseNumber
+    majorVersion: '1'
+    minorVersion: '0'
+    patchVersion: '0'
+```
+
+Here we first create the package with the proper version. By using `versioningScheme: byPrereleaseNumber` we let devops to add a suffix at the end of the versioning: `-CI-20190621-042647`.
+
+Then, to push the package to `Tailspin.SpaceGame.Web.Models` Azure Artifacts feed:
+
+```yaml
+- task: NuGetCommand@2
+  displayName: 'Publish NuGet package'
+  inputs:
+    command: push
+    publishVstsFeed: 'Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Models'
+    allowPackageConflicts: true
+  condition: succeeded()
+```
+
+After the pipeline builds and pushes the package, we can then install it with `Install-Package Tailspin.SpaceGame.Web.Models -version 1.0.0-CI-20190621-042647`.
+
+Finally, if we have another pipeline that needs to use this dependency we just created, we can restore it via:
+
+```yaml
+- task: NuGetCommand@2
+  displayName: 'Restore project dependencies'
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: 'Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Models'
+```
+
+## Host your own build agent in Azure Pipelines
+
+A build agent is a system that performs build tasks. You can organize build agents into agent pools to help ensure that there's a server ready to process each build request.
+
+If we have a pipeline that requires specific software or capabilities for the build agents to have:
+
+```yaml
+pool:
+  name: 'MyAgentPool'
+  demands:
+  - npm
+```
+
+MS agents are the easiest way to start and they come prepared with the usual packages for many types of applications. However, they have some limitations:
+* **Build duration**: A build job can run for up to six hours.
+* **Disk space**: fixed amount of storage for your sources and your build outputs.
+* **CPU, memory, and network**: Hosted agents run on Microsoft Azure general purpose VMs. Standard_DS2_v2 describes the CPU, memory, and network characteristics you can expect.
+* **Interactivity**: You can't sign in to a hosted agent.
+* **File shares**: You can't drop build artifacts to Universal Naming Convention (UNC) file shares.
+
+Also, when you use hosted agents, you get a clean system with each build. When you bring your own build agent, you can decide whether to perform a clean build each time or perform an **incremental build**. As a tradeoff, because the build infrastructure is yours, it's your responsibility to ensure that your build agents contain the latest software and security patches.
+
+A private build agent contains the software that's required to build your applications. It also contains agent software, which enables the system to connect to Azure Pipelines and receive build jobs. To create it there are different options:
+
+* Set up the build agent manually - good way to get started
+* Automate the process using scripts. An option would be an ARM template or by using Terraform - useful to create a pool of agents.
+* Create an image, as a form of automation.
+
+> OBS: A private build agent can run anywhere, including Azure, another cloud, or on-premises.
+
+Also, note that the type of machines that can work as build agents are Windows, Linux or MacOs. If we have an app that needs to run on all of them, the proper way to go set this up would be to have three different build pipelines, one configured per each platform.

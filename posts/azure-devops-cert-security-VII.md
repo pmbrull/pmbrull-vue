@@ -13,7 +13,7 @@ ctime: 2020-10-07
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/maintain-secure-repository-github/).
 
-# Maintain a secure repository by using GitHub best practices
+## Maintain a secure repository by using GitHub best practices
 
 Learning objectives:
 * Enable vulnerable dependency detection for private repositories

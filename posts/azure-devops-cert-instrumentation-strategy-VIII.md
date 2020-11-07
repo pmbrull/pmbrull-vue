@@ -14,7 +14,7 @@ ctime: 2020-09-23
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/instrument-web-app-code-with-application-insights/).
 
-# Instrument server-side web application code with Application Insights
+## Instrument server-side web application code with Application Insights
 
 Sometimes we are interested in custom metrics or more detailed data in events that is not given by default in the automatic telemetry gathered about performance and behavior.
 

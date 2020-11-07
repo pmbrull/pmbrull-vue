@@ -12,7 +12,7 @@ ctime: 2020-09-28
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/).
 
-# Improve incident response with alerting on Azure
+## Improve incident response with alerting on Azure
 
 Learning objectives:
 * Explore alerts by using Azure Monitor.

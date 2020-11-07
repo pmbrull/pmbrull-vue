@@ -12,7 +12,7 @@ ctime: 2020-09-25
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/react-to-state-changes-using-event-grid/).
 
-# React to state changes in your Azure services by using Event Grid
+## React to state changes in your Azure services by using Event Grid
 
 Learning objectives:
 * Describe the capabilities and use cases for Event Grid

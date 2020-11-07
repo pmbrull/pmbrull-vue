@@ -14,7 +14,7 @@ The content of this post comes from [Microsoft Learn](https://docs.microsoft.com
 
 So in this review we are going to visit *just one* of the goals one should keep in mind when designing software in Azure.
 
-# Microsoft Azure Well-Architected Framework - Performance efficiency
+## Microsoft Azure Well-Architected Framework - Performance efficiency
 
 Learning objectives:
 * Scale your capacity based on workload.

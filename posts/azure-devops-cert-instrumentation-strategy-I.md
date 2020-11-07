@@ -15,7 +15,7 @@ Long story short, we need to manage logging, telemetry and monitoring. The infor
 
 Note that in the Learning Path, MS allows us to use some sandboxes to deploy services and play around with the topics explained without getting our subscriptions charged, which is a great way to get some hands-on experience!
 
-# Capture Web Application Logs with App Service Diagnostics Logging
+## Capture Web Application Logs with App Service Diagnostics Logging
 
 Learning objectives:
 * Enable application logging on an Azure Web App.

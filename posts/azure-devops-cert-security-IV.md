@@ -14,7 +14,7 @@ ctime: 2020-10-04
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/configure-and-manage-azure-key-vault/).
 
-# Configure and manage secrets in Azure Key Vault
+## Configure and manage secrets in Azure Key Vault
 
 Learning objectives:
 * Explore proper usage of Azure Key Vault

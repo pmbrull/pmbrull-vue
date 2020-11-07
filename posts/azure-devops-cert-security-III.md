@@ -11,7 +11,7 @@ ctime: 2020-10-03
 
 The content of this post comes from [Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/authenticate-apps-with-managed-identities/).
 
-# Authenticate apps to Azure services by using service principals and managed identities for Azure resources
+## Authenticate apps to Azure services by using service principals and managed identities for Azure resources
 
 With all applications we face a problem: how to handle sensitive configs, such as users and passwords. With Azure, there is an auth method that works to reduce all of this hassle: service principals and managed identities.
 
