@@ -54,6 +54,18 @@
 
     <h1 class="font-bold text-3xl text-gray-800 px-3 mt-10 mb-4 text-center">Certifications</h1>
 
+    <div class="flex flex-wrap -mx-10 justify-between">
+        <div class="md:w-1/3 mt-8 w-full p-4">
+          <img :src="require(`~/assets/${devopsBadge}`)" alt="feeling" class="h-40 justify-center m-auto" />
+        </div>
+        <div class="md:w-1/3 mt-8 w-full p-4 m-auto">
+          <img :src="require(`~/assets/${developerBadge}`)" alt="world" class="h-40 justify-center m-auto" />
+        </div>
+        <div class="md:w-1/3 mt-8 w-full p-4 m-auto">
+          <img :src="require(`~/assets/${dsBadge}`)" alt="code" class="h-40 justify-center m-auto" />
+        </div>
+    </div>
+
     <div class="mt-6 text-sm text-gray-600">
       <ul class="list-disc">
         <li v-for="cert in certification" :key="cert.title" class="mt-2">
@@ -75,6 +87,9 @@ export default {
     return {
       resume1: "images/resume/resume1.svg",
       resume2: "images/resume/resume2.svg",
+      devopsBadge: "images/resume/microsoft-certified-devops-engineer-expert.png",
+      developerBadge: "images/resume/microsoft-certified-azure-developer-associate.png",
+      dsBadge: "images/resume/microsoft-certified-azure-data-scientist-associate.png",
       experience: [
         {
           time: "Current",
@@ -133,6 +148,11 @@ export default {
         },
       ],
       certification: [
+        {
+          title: "Microsoft Certified: Azure DevOps Engineer Expert",
+          link:
+            "https://www.youracclaim.com/badges/d9d77472-3b88-4cbf-b92d-86d29fe33d47/linked_in_profile",
+        },
         {
           title: "Microsoft Certified: Azure Data Scientist Associate",
           link:
