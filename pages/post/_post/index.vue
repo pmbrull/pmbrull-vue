@@ -82,3 +82,10 @@ export default {
   }
 };
 </script>
+
+<style>
+
+h3 {
+    padding-bottom: 15px;
+}
+</style>
