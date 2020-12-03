@@ -88,4 +88,8 @@ export default {
 h3 {
     padding-bottom: 15px;
 }
+
+.markdown a {
+    color: #3182CE;
+}
 </style>
