@@ -38,7 +38,7 @@
     "frontmatter-markdown-loader": "^1.8.0",
     "fs": "0.0.1-security",
     "glob": "^7.1.6",
-    "jimp": "^0.6.8",
+    "jimp": "^0.22.7",
     "markdown-it-highlightjs": "^3.0.0",
     "node-sass": "^4.13.1",
     "nodemon": "^1.19.4",
